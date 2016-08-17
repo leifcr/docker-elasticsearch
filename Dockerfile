@@ -1,4 +1,4 @@
-FROM dockerfile/elasticsearch
+FROM elasticsearch
 
 # Install the required plugins
 ENV ES_HOME /usr/share/elasticsearch
