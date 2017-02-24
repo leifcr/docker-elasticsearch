@@ -1,4 +1,4 @@
-FROM elasticsearch
+FROM elasticsearch:2.4
 
 # Install the required plugins
 ENV ES_HOME /usr/share/elasticsearch
