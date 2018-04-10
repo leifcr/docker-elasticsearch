@@ -1,3 +1,3 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:5.6.8
+FROM elasticsearch:5.6
 
 COPY config ./config
