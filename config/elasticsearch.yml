@@ -1,3 +1,6 @@
 network.host: 0.0.0.0
 cluster.routing.allocation.disk.watermark.low: "98%"
 cluster.routing.allocation.disk.watermark.high: "99%"
+discovery.zen.minimum_master_nodes=1
+discovery.type=single-node
+network.bind_host=0.0.0.0
