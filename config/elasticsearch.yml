@@ -4,3 +4,7 @@ cluster.routing.allocation.disk.watermark.high: "99%"
 discovery.zen.minimum_master_nodes: 1
 discovery.type: 'single-node'
 network.bind_host: 0.0.0.0
+action.auto_create_index: true
+http.cors.allow-origin: "*"
+http.cors.enabled: true
+
