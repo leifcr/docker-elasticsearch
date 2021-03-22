@@ -1,3 +1,4 @@
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.11.2
-COPY config ./config
-# ENV discovery.type single-node
+COPY config/elasticsearch.yml ./config/elasticsearch.yml
+COPY config/log4j2.properties ./config/log4j2.properties
+COPY config/jvm-memory.options /usr/share/elasticsearch/config/jvm.options.d/jvm-memory.options
